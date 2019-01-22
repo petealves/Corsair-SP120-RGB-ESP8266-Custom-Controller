@@ -19,7 +19,8 @@ Note: D2 can be changed to another pin, just change it on the code!
 3- Open the code on Arduino IDE;<br/>
 4- Change the NR_FANS to the number of your fans;<br/>
 5- Change SSID and Password to match your network;<br/>
-6- Select the proper Nodemcu ESP8266 board and uload your code;<br/>
+6- Select the proper Nodemcu ESP8266 board (and Port) and upload your code;<br/>
+6.1- OTA Updates are also supported, for this you need to have Python installed;<br/>
 7- Go to your Router page and look for the IP of "Corsair-SP120-RGB Controller" or open Serial Monitor on BAUD 115200 to see the IP;<br/>
 8- Go to your browser and type the IP;<br/>
 9- Done!
